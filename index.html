@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Focus Timer</title>
+  <link rel="stylesheet" href="/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="timer">
+            <div id="display">25:00</div>
+            <div class="buttons">
+                <button id="playButton"><img src="images/play.svg" alt="Play"></button>
+                <button id="stopButton"><img src="images/stop.svg" alt="Stop"></button>
+                <button id="increaseVolume"><img src="images/up.svg" alt="Aumentar Volume"></button>
+                <button id="decreaseVolume"><img src="images/down.svg" alt="Diminuir Volume"></button>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card-group">
+              <div class="card">
+                <button id="card1">
+                  <img id="img1" src="images/card/Card 01.svg" alt="Arvore com fundo cinza">
+                  <img id="hover01" src="images/card/Card 01_blue.svg" alt="Arvore com fundo azul"  class="hidden">
+                </button>
+              </div>
+              <div class="card">
+                <button  id="card3">
+                  <img id="img3" src="images/card/Card 03.svg" alt="Imagem 3">
+                  <img id="hover03" src="images/card/Card 03_blue.svg" alt="Arvore com fundo azul"  class="hidden">
+                </button>
+              </div>
+            </div>
+            <div class="card-group">
+              <div class="card">
+                <button id="card2">
+                  <img id="img2" src="images/card/Card 02.svg" alt="Imagem 2">
+                  <img id="hover02" src="images/card/Card 02_blue.svg" alt="Arvore com fundo azul"  class="hidden">
+                </button>
+              </div>
+              <div class="card">
+                <button id="card4">
+                  <img id="img4" src="images/card/Card 04.svg" alt="Imagem 4">
+                  <img id="hover04" src="images/card/Card 04_blue.svg" alt="Arvore com fundo azul"  class="hidden">
+                </button>
+              </div>
+            </div>
+        </div>
+    </div> 
+
+    <audio id="sound2" src="images/audio/Chuva.wav"></audio>
+    <audio id="sound3" src="images/audio/Cafeteria.wav"></audio>
+    <audio id="sound1" src="images/audio/Floresta.wav"></audio>
+    <audio id="sound4" src="images/audio/Lareira.wav"></audio>
+
+
+    <script src="/main.js"></script>
+</body>
+</html>
